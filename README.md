@@ -1,4 +1,4 @@
-<h2 align="center">shang-cli</h2>
+<h2 align="center">xianyu-cli</h2>
 
 <p align="center">A lightweight javascript plugin CLI.</p>
 
@@ -11,40 +11,40 @@
 
 # Installation
 ```
-$ npm i shang-cli -g
+$ npm i xianyu-cli -g
 ```
 # Usage
 Run the following command line to create the project:
 ```
-$ shang-cli init myproject
+$ xianyu-cli init myproject
 ```
 
 # Parameter
 ## init <PROJECT_NAME>
 Create the JavaScript plugin project:
 ```
-$ shang-cli init myproject
+$ xianyu-cli init myproject
 ```
 
 ## upgrade
 Check the new version is available or not:
 ```
-$ shang-cli upgrade
+$ xianyu-cli upgrade
 ```
 
 ## template
 You can download or upgrade the template from mirror:
 ```
-$ shang-cli template
+$ xianyu-cli template
 ```
 
 ## mirror <TEMPLATE_MIRROR>
 You can also set the template mirror like this:
 ```
 
-[comment]: <> ($ shang-cli mirror https://zpfz.vercel.app/download/files/frontend/tpl/shang-cli/)
+[comment]: <> ($ xianyu-cli mirror https://zpfz.vercel.app/download/files/frontend/tpl/xianyu-cli/)
 ```
 **NOTE**  
 You can customize the template mirror link by youself, but the template file name must be `template.zip`, and the mirror link should be `/` ending.  
-For example, the full link to your custom template mirror is `https://example.com/mirror/template.zip`, the mirror link that shang-cli can recognize should be `https://example.com/mirror/`.  
+For example, the full link to your custom template mirror is `https://example.com/mirror/template.zip`, the mirror link that xianyu-cli can recognize should be `https://example.com/mirror/`.  
 

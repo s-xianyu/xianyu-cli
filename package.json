@@ -1,22 +1,22 @@
 {
-  "name": "shang-cli",
+  "name": "xianyu-cli",
   "version": "1.0.0",
   "description": "A lightweight javascript plugin CLI.",
   "main": "./bin/index.js",
   "bin": {
-    "shang-cli": "./bin/index.js"
+    "xianyu-cli": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "s-xianyu/shang-cli",
-  "bugs": "https://github.com/s-xianyu/shang-cli/issues",
+  "repository": "s-xianyu/xianyu-cli",
+  "bugs": "https://github.com/s-xianyu/xianyu-cli/issues",
   "keywords": [
-    "shang-cli",
+    "xianyu-cli",
     "js"
   ],
   "author": "Feng L.H.",
-  "homepage": "https://github.com/s-xianyu/shang-cli",
+  "homepage": "https://github.com/s-xianyu/xianyu-cli",
   "license": "MIT",
   "dependencies": {
     "chalk": "^3.0.0",

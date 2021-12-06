@@ -36,7 +36,7 @@ program
 
 // init
 program
-	.name('shang-cli')
+	.name('xianyu-cli')
 	.usage('<commands> [options]')
 	.command('init <project_name>')
 	.description('Create a javascript plugin project.')

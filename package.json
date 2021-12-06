@@ -1,0 +1,37 @@
+{
+  "name": "shang-cli",
+  "version": "1.0.0",
+  "description": "A lightweight javascript plugin CLI.",
+  "main": "./bin/index.js",
+  "bin": {
+    "shang-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "s-xianyu/shang-cli",
+  "bugs": "https://github.com/s-xianyu/shang-cli/issues",
+  "keywords": [
+    "shang-cli",
+    "js"
+  ],
+  "author": "Feng L.H.",
+  "homepage": "https://github.com/s-xianyu/shang-cli",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "co": "^4.6.0",
+    "commander": "^4.1.1",
+    "download": "^8.0.0",
+    "fs-extra": "^9.0.1",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^3.0.0",
+    "ora": "^5.1.0",
+    "thunkify": "^2.1.2",
+    "update-notifier": "^4.1.1"
+  },
+  "engines": {
+    "node": ">=8.6"
+  }
+}

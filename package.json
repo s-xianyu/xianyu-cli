@@ -1,6 +1,6 @@
 {
   "name": "xianyu-cli",
-  "version": "1.0.3",
+  "version": "1.0.4-0",
   "description": "A lightweight javascript plugin CLI.",
   "main": "./bin/index.js",
   "bin": {

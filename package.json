@@ -1,37 +1,37 @@
 {
   "name": "xianyu-cli",
-  "version": "1.0.3",
-  "description": "A lightweight javascript plugin CLI.",
-  "main": "./bin/index.js",
+  "version": "1.0.1",
+  "description": "这是一个脚手架项目",
+  "author": {
+    "name": "s-xianyu",
+    "email": "s22539634@aliyun.com"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "main": "index.js",
   "bin": {
-    "xianyu-cli": "./bin/index.js"
+    "xy": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "s-xianyu/xianyu-cli",
-  "bugs": "https://github.com/s-xianyu/xianyu-cli/issues",
   "keywords": [
     "xianyu-cli",
-    "js"
+    "脚手架",
+    "脚手架工具"
   ],
-  "author": "Feng L.H.",
-  "homepage": "https://github.com/s-xianyu/xianyu-cli",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
-    "chalk": "^3.0.0",
-    "co": "^4.6.0",
-    "commander": "^4.1.1",
-    "download": "^8.0.0",
-    "fs-extra": "^9.0.1",
-    "handlebars": "^4.7.6",
-    "inquirer": "^7.3.3",
-    "log-symbols": "^3.0.0",
-    "ora": "^5.1.0",
-    "thunkify": "^2.1.2",
-    "update-notifier": "^4.1.1"
-  },
-  "engines": {
-    "node": ">=8.6"
+    "axios": "^0.26.0",
+    "chalk": "^5.0.0",
+    "commander": "^9.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.0",
+    "ora": "^6.1.0",
+    "progress": "^2.0.3",
+    "util": "^0.12.4"
   }
 }

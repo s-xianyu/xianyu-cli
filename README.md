@@ -16,14 +16,7 @@ $ npm i xianyu-cli -g
 # Usage
 Run the following command line to create the project:
 ```
-$ xianyu-cli init myproject
-```
-
-# Parameter
-## init <PROJECT_NAME>
-Create the JavaScript plugin project:
-```
-$ xianyu-cli init myproject
+$ xianyu-cli create myproject
 ```
 
 ## upgrade
@@ -31,20 +24,3 @@ Check the new version is available or not:
 ```
 $ xianyu-cli upgrade
 ```
-
-## template
-You can download or upgrade the template from mirror:
-```
-$ xianyu-cli template
-```
-
-## mirror <TEMPLATE_MIRROR>
-You can also set the template mirror like this:
-```
-
-[comment]: <> ($ xianyu-cli mirror https://zpfz.vercel.app/download/files/frontend/tpl/xianyu-cli/)
-```
-**NOTE**  
-You can customize the template mirror link by youself, but the template file name must be `template.zip`, and the mirror link should be `/` ending.  
-For example, the full link to your custom template mirror is `https://example.com/mirror/template.zip`, the mirror link that xianyu-cli can recognize should be `https://example.com/mirror/`.  
-

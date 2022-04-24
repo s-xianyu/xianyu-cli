@@ -1,6 +1,6 @@
 {
-  "name": "xianyu-cli",
-  "version": "1.0.1",
+  "name": "xianyu-cli22",
+  "version": "1.0.2",
   "description": "这是一个脚手架项目",
   "author": {
     "name": "s-xianyu",
@@ -25,12 +25,14 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.0",
-    "chalk": "^5.0.0",
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
     "commander": "^9.0.0",
     "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
     "fs-extra": "^10.0.1",
     "inquirer": "^8.2.0",
-    "ora": "^6.1.0",
+    "ora": "^5.4.1",
     "progress": "^2.0.3",
     "util": "^0.12.4"
   }

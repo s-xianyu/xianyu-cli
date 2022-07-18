@@ -1,21 +1,25 @@
 #! /usr/bin/env node
+const pkg = require('../package.json')
+const cmd = require('commander')
+const COMMANDMAP = {
+  init: require('../lib/create.js'),
+}
 
-const program = require('commander')
-const versionCode = require('../package.json').version
+function exec(command, ...args) {
+  COMMANDMAP[command](...args)
+}
 
-program
-  .version(versionCode)
-  .command('create <name>')
+cmd
+  .version(pkg.version)
+  .command('init <name>')
   .description('确认创建一个新项目吗？')
   // -f or --force 为强制创建，如果创建的目录存在则直接覆盖
   .option('-f, --force', '强制创建传入')
-  .action((name, options) => {
-    require('../lib/create.js')(name, options)
-  })
+  .action((name, options) => exec('init', name, options))
 
+cmd.version(pkg.version)
+cmd.parse(process.argv)
 
-program
-  // 版本号信息
-  .version(versionCode)
-  .usage('<command> [option]')
-program.parse(process.argv)
+if (!cmd.args.length) {
+  cmd.help()
+}

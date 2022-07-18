@@ -11,16 +11,16 @@
 
 # Installation
 ```
-$ npm i xianyu-cli -g
+$ npm i s-xianyu-cli -g
 ```
 # Usage
 Run the following command line to create the project:
 ```
-$ xianyu-cli create myproject
+$ xy create myproject
 ```
 
 ## upgrade
 Check the new version is available or not:
 ```
-$ xianyu-cli upgrade
+$ s-xianyu-cli upgrade
 ```

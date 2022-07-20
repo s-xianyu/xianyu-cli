@@ -1,4 +1,12 @@
-<h2 align="center">xianyu-cli</h2>
+<!--
+ * @Author: s-xianyu s22639634@aliyun.com
+ * @Date: 2022-02-26 18:18:53
+ * @LastEditors: s-xianyu s22639634@aliyun.com
+ * @LastEditTime: 2022-07-19 14:09:11
+ * @FilePath: /xianyu-cli/README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<h2 align="center">s-xianyu-cli</h2>
 
 <p align="center">A lightweight javascript plugin CLI.</p>
 
@@ -9,14 +17,16 @@
 <img alt="npm" src="https://img.shields.io/npm/dt/js-plugin-cli?style=flat-square&color=red" alt="downloads">
 </p>
 
-# Installation
+# Direct use of
+```
+$ npx s-xianyu-cli init myproject
+```
+
+# Local Installation and use
 ```
 $ npm i s-xianyu-cli -g
-```
-# Usage
-Run the following command line to create the project:
-```
-$ xy create myproject
+
+$ xy init myproject
 ```
 
 ## upgrade

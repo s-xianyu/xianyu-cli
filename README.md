@@ -34,3 +34,7 @@ Check the new version is available or not:
 ```
 $ s-xianyu-cli upgrade
 ```
+
+## 提示
+从0.0.5版本后使用新的仓库
+0.0.5及以下拉取会失败，请升级到 0.0.5
